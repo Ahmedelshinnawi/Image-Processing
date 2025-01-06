@@ -6,7 +6,7 @@ int main() {
     
     cv::Mat image = cv::imread("1.jpg");
     if (image.empty()) {
-        std::cerr << "Error: Could not load image!" << std::endl;
+        cerr << "Error: Could not load image! \n" ;
         return -1;
     }
 
